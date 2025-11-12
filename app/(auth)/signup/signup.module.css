@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.container .title {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+}
+
+.container .title img {
+  align-self: center;
+}
+
+.container .title p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #00000096;
+}
+
+.container form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.container form input[type="email"],
+.container form input[type="password"] {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1.8px solid rgba(0, 0, 0, 0.363);
+}
+
+.container form label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.container form .forg {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.container form button {
+  width: 100%;
+  padding: 0.7rem 2rem;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 1.5px solid #8142f5;
+  border-radius: 0.5rem;
+  color: #8142f5;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.container form button:hover {
+  background-color: #8142f5;
+  color: #fff;
+}
+
+.container form input:focus {
+  border: 1.5px solid #8142f5;
+}
+.container form input:hover:not(:focus) {
+  border: 1.8px solid rgb(164, 182, 233);
+}
